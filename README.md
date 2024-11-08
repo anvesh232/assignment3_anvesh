@@ -7,8 +7,7 @@ Business Forecasting: Assignment 3
 | `fashion_mnist_model.pth`| File containing the trained model weights.                   |
 | `import_script.py`       | An import script that loads the model weights and evaluates the accuracy. |
 
-Results
-Im just making a table so it's easy for reading
+Results:
 
 | Network     | Epochs | Runtime (minutes) | Accuracy (%) |
 |-------------|--------|-------------------|--------------|
