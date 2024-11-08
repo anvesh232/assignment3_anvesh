@@ -5,7 +5,7 @@ Business Forecasting: Assignment 3
  fashion_mnist_model.pth- file with all the weights
  mport_script.py- an import script that takes the weights and gives the accuracy
 
-
+Following is a summary of the work i have done:
 1.
 Tried the model in our class.Started with an accuracy of 80%.As the model trained the accuracy slowly increased and then fluctuated btwn 83 and 84.By the end of 20 epochs i got 84.1%.
 
