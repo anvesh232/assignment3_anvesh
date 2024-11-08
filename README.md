@@ -4,7 +4,7 @@ Business Forecasting: Assignment 3
  CNN_Model.ipynb- The code that includes the data loader,model,training and weight saving codes
  fashion_mnist_model.pth- file with all the weights
  
- mport_script.py- an import script that takes the weights and gives the accuracy
+ import_script.py- an import script that takes the weights and gives the accuracy
 
 Following is a summary of the work i have done:
 1.
