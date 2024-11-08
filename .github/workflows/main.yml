@@ -1,0 +1,30 @@
+name: Test Model
+
+on:
+  push:
+    branches:
+      - main  # Trigger this action on push to the 'main' branch
+  pull_request:
+    branches:
+      - main  # Trigger this action on pull requests targeting the 'main' branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Specify the OS for the workflow (you can change this if needed)
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Checkout the repository code
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # Specify the Python version you’re using
+
+    - name: Install dependencies
+      run: |
+        pip install torch torchvision  # Install PyTorch and torchvision
+
+    - name: Run tests
+      run: |
+        python test_import_script.py  # Run the test script
