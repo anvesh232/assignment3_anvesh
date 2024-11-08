@@ -14,18 +14,16 @@ Now I'm just googling models in pytorch to see if i can get more accuracy.I have
 
 Im just making a table so it's easy for reading
 
-Network      Epochs   Runtime(minutes)     Accuracy
+| Network     | Epochs | Runtime (minutes) | Accuracy (%) |
+|-------------|--------|-------------------|--------------|
+| FirstNet    | 20     | 6                 | 84.1         |
+| FirstNet    | 30     | 9                 | 83.3         |
+| Simple-NN   | 5      | 1                 | 87           |
+| Simple-NN   | 20     | 6                 | 88.68        |
+| Simple CNN  | 5      | 7                 | 91.62        |
+| Simple CNN  | 20     | 19                | 91.69        |
+| Deeper CNN  | 5      | 11                | 91.43        |
 
-FirstNet       20          6                 84.1
-FirstNet       30          9                 83.3
-
-Simple-NN      5           1                 87
-Simple-nn      20          6                 88.68
-
-Simple CNN     5           7                 91.62
-Simple CNN     20          19                91.69
-
-Deeper CNN     5           11                91.43
 
 Since there isn't a big leap in running more epochs in simple cnn, i didnt bother doing it for deeper cnn.I'm gonna go with simple CNN with 5 epochs and call it a day.Since i got 90+ accuracy i think it's okay?
 
